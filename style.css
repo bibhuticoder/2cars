@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+canvas {
+    border-style: solid;
+    border-width: 1px;
+    background-color: #373737;    
+}
+
+.container {
+    position: relative;
+    height: 600px;
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#board{
+    position: absolute;
+    left: 42%;
+    top: 45%;
+    text-align: center;
+    width: 200px;
+    height: 110px;
+    background-color: black;
+    opacity: 0.8;
+    border-color: white;
+   
+    border-radius: 5px;
+    padding: 10px;
+
+}
+
+#board label{
+    color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+#highscore{
+    font-size: 18px !important;
+    color: yellow !important;
+}
+
+.btn{
+    outline: none;
+    border-style: none;  
+    border-radius: 3px;
+    background-color: #373737;
+    padding: 10px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color:gray;
+}
